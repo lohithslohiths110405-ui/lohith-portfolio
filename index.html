@@ -1,0 +1,648 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Portfolio of Lohith S, an MCA Data Science student at Alliance University."
+    />
+    <title>Lohith S | Data Science Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <nav class="navbar container" aria-label="Primary navigation">
+        <a class="brand" href="#home" aria-label="Lohith S home">
+          <span class="brand-avatar" aria-hidden="true">LS</span>
+          <span class="brand-name">LOHITH <strong>S</strong></span>
+        </a>
+
+        <button
+          class="menu-toggle"
+          type="button"
+          aria-expanded="false"
+          aria-controls="primary-menu"
+          aria-label="Open navigation menu"
+        >
+          <span></span>
+          <span></span>
+        </button>
+
+        <div class="nav-menu" id="primary-menu">
+          <div class="nav-links">
+            <a href="#work">WORK</a>
+            <a href="#capabilities">CAPABILITIES</a>
+            <a href="#about">ABOUT</a>
+            <a href="#experience">INTERNSHIP</a>
+            <a href="#certifications">CERTIFICATIONS</a>
+            <a href="#contact">CONTACT</a>
+          </div>
+          <a class="talk-button" href="#contact">
+            LET'S TALK
+            <span aria-hidden="true">↗</span>
+          </a>
+        </div>
+      </nav>
+    </header>
+
+    <main>
+      <section class="hero container" id="home" aria-labelledby="hero-title">
+        <div class="hero-content">
+          <div class="eyebrow-row">
+            <span class="eyebrow-mark" aria-hidden="true"></span>
+            <p class="eyebrow">DATA <span>•</span> AI <span>•</span> ANALYTICS</p>
+          </div>
+
+          <div class="availability">
+            <span class="availability-dot" aria-hidden="true"></span>
+            <span>OPEN TO INTERNSHIPS &amp; OPPORTUNITIES</span>
+          </div>
+
+          <h1 id="hero-title">
+            <span class="heading-kicker">HELLO, I'M</span>
+            <span class="accent-text">LOHITH</span>
+            <span class="outline-text">S</span>
+          </h1>
+
+          <div class="intro-card">
+            <p class="hero-intro">
+              I'm an <strong>MCA Data Science student</strong> at Alliance University,
+              passionate about transforming data into meaningful insights and building
+              intelligent solutions using Python, Machine Learning and Data Analytics.
+            </p>
+          </div>
+
+          <div class="hero-actions">
+            <a class="button button-primary" href="#work">
+              VIEW MY WORK
+              <span aria-hidden="true">↗</span>
+            </a>
+            <a class="button button-secondary" href="/LOHITH_CV.pdf" download>
+              DOWNLOAD RESUME
+              <span aria-hidden="true">↓</span>
+            </a>
+            <a class="button button-secondary" href="/LOHITH_CV.pdf" target="_blank" rel="noopener noreferrer">
+              VIEW RESUME
+              <span aria-hidden="true">↗</span>
+            </a>
+            <a class="button button-secondary" href="/LOHITH_TECHNICAL.pdf" download>
+              DOWNLOAD TECHNICAL PROFILE
+              <span aria-hidden="true">↓</span>
+            </a>
+          </div>
+
+          <div class="hero-meta" aria-label="Personal details">
+            <span>BASED IN <strong>BENGALURU, INDIA</strong></span>
+            <span class="meta-divider" aria-hidden="true"></span>
+            <span>STUDYING AT <strong>ALLIANCE UNIVERSITY</strong></span>
+          </div>
+        </div>
+
+        <div class="hero-visual">
+          <div class="visual-orbit orbit-one" aria-hidden="true"></div>
+          <div class="visual-orbit orbit-two" aria-hidden="true"></div>
+          <div class="portrait-frame">
+            <img class="portrait-image" src="/LOHITH.jpg" alt="Lohith S" />
+            <span class="frame-corner frame-corner-top" aria-hidden="true"></span>
+            <span class="frame-corner frame-corner-bottom" aria-hidden="true"></span>
+          </div>
+          <div class="visual-caption">
+            <span class="caption-line" aria-hidden="true"></span>
+            <span>BUILDING WITH DATA<br /><em>THINKING BEYOND LIMITS</em></span>
+          </div>
+        </div>
+      </section>
+
+      <section class="projects-section container" id="work" aria-labelledby="projects-title">
+        <div class="section-heading">
+          <div class="section-heading-copy">
+            <p class="section-badge"><span aria-hidden="true">✦</span> PORTFOLIO // SELECTED WORK</p>
+            <h2 id="projects-title">
+              <span>FEATURED</span> <strong>PROJECTS.</strong>
+            </h2>
+            <p class="section-description">
+              Building practical data-driven applications, predictive models, analytical
+              dashboards, and intelligent solutions.
+            </p>
+          </div>
+          <p class="project-count"><span id="visible-project-count">07</span> / 07<br /><small>SELECTED BUILDS</small></p>
+        </div>
+
+        <div class="project-filters" role="group" aria-label="Filter projects by category">
+          <button class="filter-button is-active" type="button" data-filter="all" aria-pressed="true">ALL</button>
+          <button class="filter-button" type="button" data-filter="data-analytics" aria-pressed="false">DATA ANALYTICS</button>
+          <button class="filter-button" type="button" data-filter="business-intelligence" aria-pressed="false">BUSINESS INTELLIGENCE</button>
+          <button class="filter-button" type="button" data-filter="machine-learning" aria-pressed="false">MACHINE LEARNING</button>
+          <button class="filter-button" type="button" data-filter="artificial-intelligence" aria-pressed="false">ARTIFICIAL INTELLIGENCE</button>
+          <button class="filter-button" type="button" data-filter="nlp" aria-pressed="false">NLP</button>
+          <button class="filter-button" type="button" data-filter="power-bi" aria-pressed="false">POWER BI</button>
+        </div>
+
+        <div class="projects-grid">
+          <article class="project-card project-card-wide" data-categories="machine-learning python artificial-intelligence">
+            <div class="project-details">
+              <div class="project-topline">
+                <span class="project-number">01</span>
+                <span class="project-category">MACHINE LEARNING</span>
+              </div>
+              <h3>AI-POWERED CUSTOMER CHURN PREDICTION AND RETENTION ANALYTICS SYSTEM</h3>
+              <p>
+                Developed a machine learning application to predict customer churn and identify
+                customers at risk of leaving. Compared predictive models and built an interactive
+                Streamlit dashboard for retention analysis.
+              </p>
+              <div class="technology-list" aria-label="Technologies used">
+                <span>PYTHON</span><span>PANDAS</span><span>NUMPY</span><span>SCIKIT-LEARN</span><span>STREAMLIT</span>
+              </div>
+              <div class="project-links">
+                <a class="project-link project-action" href="https://github.com/lohithslohiths110405-ui/AI-Customer-Churn-Retention-System" target="_blank" rel="noopener noreferrer">VIEW SOURCE CODE <span>↗</span></a>
+                <a class="project-link project-link-demo project-action" href="https://ai-customer-churn-retention-system-gkbig2zwth7pffemtjzesa.streamlit.app/" target="_blank" rel="noopener noreferrer">LIVE DEMO <span>↗</span></a>
+              </div>
+            </div>
+            <div class="project-preview churn-preview" aria-label="Illustrative customer churn analytics dashboard">
+              <div class="preview-topbar"><span class="preview-brand">CHURN<span>IQ</span></span><span class="preview-status">● ILLUSTRATIVE UI / SAMPLE DATA</span></div>
+              <div class="preview-heading"><span>Customer analytics</span><strong>Retention overview <i>↗</i></strong></div>
+              <div class="analytics-stats">
+                <div><small>CUSTOMERS</small><strong>12,480</strong><em>+12.8%</em></div>
+                <div><small>AT RISK</small><strong class="preview-lime">18.6%</strong><em>−2.4%</em></div>
+                <div><small>RETENTION</small><strong>81.4%</strong><em>+6.1%</em></div>
+              </div>
+              <div class="preview-chart">
+                <div class="chart-labels"><span>CHURN PROBABILITY</span><span>LAST 6 MONTHS</span></div>
+                <div class="chart-bars"><i style="height: 35%"></i><i style="height: 51%"></i><i style="height: 43%"></i><i style="height: 68%"></i><i style="height: 57%"></i><i class="bar-active" style="height: 81%"></i><i style="height: 65%"></i></div>
+                <div class="chart-axis"><span>JAN</span><span>FEB</span><span>MAR</span><span>APR</span><span>MAY</span><span>JUN</span><span>JUL</span></div>
+              </div>
+              <div class="risk-row"><span><b></b> SAMPLE RISK SIGNAL</span><strong>VISUAL ONLY</strong></div>
+            </div>
+          </article>
+
+          <article class="project-card" data-categories="machine-learning python artificial-intelligence">
+            <div class="project-details">
+              <div class="project-topline"><span class="project-number">02</span><span class="project-category">MACHINE LEARNING</span></div>
+              <h3>UPI FRAUD DETECTION SYSTEM</h3>
+              <p>Built a fraud detection system using Isolation Forest to identify suspicious UPI transactions based on behavioural patterns and anomaly detection.</p>
+              <div class="technology-list"><span>PYTHON</span><span>PANDAS</span><span>NUMPY</span><span>ISOLATION FOREST</span></div>
+              <div class="project-links">
+                <a class="project-link project-action" href="https://github.com/lohithslohiths110405-ui/fraud-detection-project" target="_blank" rel="noopener noreferrer">VIEW SOURCE CODE <span>↗</span></a>
+                <a class="project-link project-link-demo project-action" href="https://lohithdevanga2310-fraud-detection-app.hf.space/?__theme=system&amp;deep_link=6IPhNRXM6ZI" target="_blank" rel="noopener noreferrer">LIVE DEMO <span>↗</span></a>
+              </div>
+            </div>
+            <div class="project-preview fraud-preview" aria-label="Illustrative UPI transaction monitoring interface">
+              <div class="preview-topbar"><span class="preview-brand">SECURE<span>PAY</span></span><span class="preview-status">● ILLUSTRATIVE UI / SAMPLE DATA</span></div>
+              <div class="fraud-head"><span>Transaction monitoring</span><strong>Today <i>⌄</i></strong></div>
+              <div class="fraud-score"><div><small>RISK DETECTION SCORE</small><strong>98.2%</strong></div><div class="score-ring">98</div></div>
+              <div class="transaction-list"><div><span class="transaction-icon">₹</span><span>UPI / Bangalore<br /><small>Today, 14:32:08</small></span><strong class="safe">SAFE</strong></div><div><span class="transaction-icon warning">!</span><span>UPI / Mumbai<br /><small>Today, 14:29:41</small></span><strong class="flagged">FLAGGED</strong></div><div><span class="transaction-icon">₹</span><span>UPI / Chennai<br /><small>Today, 14:18:17</small></span><strong class="safe">SAFE</strong></div></div>
+            </div>
+          </article>
+
+          <article class="project-card" data-categories="data-analytics python">
+            <div class="project-details">
+              <div class="project-topline"><span class="project-number">03</span><span class="project-category">DATA ANALYTICS</span></div>
+              <h3>GREEN ROUTE TRAVEL RECOMMENDATION SYSTEM</h3>
+              <p>Developed a web-based travel recommendation system that suggests eco-friendly travel routes based on distance and travel time.</p>
+              <div class="technology-list"><span>PYTHON</span><span>STREAMLIT</span><span>DATA ANALYSIS</span></div>
+              <div class="project-links">
+                <a class="project-link project-action" href="https://github.com/lohithslohiths110405-ui/GR-TRAVEL-RECOMMENDATION" target="_blank" rel="noopener noreferrer">VIEW SOURCE CODE <span>↗</span></a>
+                <a class="project-link project-link-demo project-action" href="https://gr-travel-recommendation-kg2nkf3usx6l6mboxqqh9u.streamlit.app/" target="_blank" rel="noopener noreferrer">LIVE DEMO <span>↗</span></a>
+              </div>
+            </div>
+            <div class="project-preview route-preview" aria-label="Illustrative green route recommendation preview">
+              <div class="preview-topbar"><span class="preview-brand">GREEN<span>ROUTE</span></span><span class="preview-status">● ILLUSTRATIVE UI / SAMPLE DATA</span></div>
+              <div class="route-heading"><span>Find a greener way</span><strong>Eco route planner</strong></div>
+              <div class="route-map"><span class="map-grid"></span><span class="route-point point-start">A</span><span class="route-point point-end">B</span><span class="route-line"></span><span class="map-road road-one"></span><span class="map-road road-two"></span></div>
+              <div class="route-result"><span>RECOMMENDED ROUTE</span><strong>Electronic City <b>→</b> Whitefield</strong><small>28.4 km &nbsp; • &nbsp; 48 min &nbsp; • &nbsp; 24% less emissions</small></div>
+            </div>
+          </article>
+
+          <article class="project-card" data-categories="nlp python">
+            <div class="project-details">
+              <div class="project-topline"><span class="project-number">04</span><span class="project-category">NLP / NATURAL LANGUAGE PROCESSING</span></div>
+              <h3>NLP NEWS SUMMARIZATION SYSTEM</h3>
+              <p>Developed an NLP-based news summarization application that processes lengthy news articles and generates concise summaries, helping users quickly understand important information.</p>
+              <div class="technology-list" aria-label="Verified technologies used"><span>PYTHON</span><span>NUMPY</span><span>SCIKIT-LEARN</span><span>TF-IDF</span><span>STREAMLIT</span></div>
+              <div class="project-links">
+                <a class="project-link project-action" href="https://github.com/lohithslohiths110405-ui/NEWS_SUMMARIZATION" target="_blank" rel="noopener noreferrer">VIEW SOURCE CODE <span>↗</span></a>
+                <a class="project-link project-link-demo project-action" href="https://newssummarization-mupyx6f3yqknyv2nvyhsjs.streamlit.app/" target="_blank" rel="noopener noreferrer">LIVE DEMO <span>↗</span></a>
+              </div>
+            </div>
+            <div class="project-preview news-preview" aria-label="Illustrative NLP news summarization application preview">
+              <div class="preview-topbar"><span class="preview-brand">NEWS<span>BRIEF</span></span><span class="preview-status">● VISUAL PREVIEW / NOT LIVE</span></div>
+              <div class="news-app-heading"><span>NLP News Summarization</span><strong>TF-IDF EXTRACTIVE MODEL</strong></div>
+              <div class="news-input">
+                <div class="news-input-label"><span>ENTER NEWS ARTICLE</span><span>0 / 5000</span></div>
+                <p>Global markets responded positively to the latest economic announcement...</p>
+                <div class="news-input-footer"><span>Paste article text here</span><button type="button" tabindex="-1">SUMMARIZE <b>↗</b></button></div>
+              </div>
+              <div class="summary-output"><div><span>GENERATED SUMMARY</span><em>DEMO OUTPUT</em></div><p>The latest announcement is expected to support continued growth while creating new opportunities across key sectors.</p></div>
+              <div class="summary-metrics"><span><b>2</b> SENTENCES</span><span><b>68%</b> REDUCTION</span><span><b>TF-IDF</b> MODEL</span></div>
+            </div>
+          </article>
+
+          <article class="project-card" data-categories="business-intelligence power-bi">
+            <div class="project-details">
+              <div class="project-topline"><span class="project-number">05</span><span class="project-category">POWER BI / BUSINESS INTELLIGENCE</span></div>
+              <h3>FINANCE KPI DASHBOARD</h3>
+              <p>Interactive financial analytics dashboard comparing budgeted and actual expenses, tracking budget utilization, identifying overspending, and analyzing variance across departments, regions, and expense categories.</p>
+              <div class="technology-list" aria-label="Verified technologies used"><span>POWER BI</span><span>POWER QUERY</span><span>DAX</span><span>MICROSOFT EXCEL</span></div>
+              <div class="project-links">
+                <a class="project-link project-action" href="https://github.com/lohithslohiths110405-ui/Finance-kpi-dashboard" target="_blank" rel="noopener noreferrer">VIEW SOURCE CODE <span>↗</span></a>
+              </div>
+            </div>
+            <div class="project-preview powerbi-preview finance-preview" aria-label="Illustrative Finance KPI Power BI dashboard preview">
+              <div class="preview-topbar"><span class="preview-brand">FINANCE<span>INSIGHT</span></span><span class="preview-status">● ILLUSTRATIVE PREVIEW</span></div>
+              <div class="powerbi-title"><span>Finance dashboard</span><strong>Budget &amp; actuals</strong></div>
+              <div class="powerbi-kpis"><div><small>TOTAL BUDGET</small><strong>796M</strong></div><div><small>TOTAL ACTUAL</small><strong>891M</strong></div><div><small>VARIANCE</small><strong class="metric-warn">95M</strong></div></div>
+              <div class="powerbi-visual"><div class="visual-caption-row"><span>BUDGET VS ACTUAL BY DEPARTMENT</span><span>POWER BI / SAMPLE VIEW</span></div><div class="finance-bars"><i style="height: 47%"></i><i style="height: 73%"></i><i style="height: 61%"></i><i style="height: 88%"></i><i style="height: 68%"></i></div><div class="visual-axis"><span>OPS</span><span>HR</span><span>SALES</span><span>IT</span><span>ADMIN</span></div></div>
+              <div class="powerbi-footer"><span>BUDGET UTILIZATION <b>111.94%</b></span><span>OVERSPENDING <b>11.94%</b></span></div>
+            </div>
+          </article>
+
+          <article class="project-card" data-categories="business-intelligence power-bi">
+            <div class="project-details">
+              <div class="project-topline"><span class="project-number">06</span><span class="project-category">POWER BI / BUSINESS INTELLIGENCE</span></div>
+              <h3>WORKFORCE ANALYTICS DASHBOARD</h3>
+              <p>Interactive HR analytics dashboard examining employee attrition, workforce demographics, job roles, satisfaction, overtime, and retention trends to support data-driven workforce decisions.</p>
+              <div class="technology-list" aria-label="Verified technologies used"><span>POWER BI</span><span>MYSQL</span><span>POWER QUERY</span><span>DAX</span><span>CSV DATASET</span></div>
+              <div class="project-links">
+                <a class="project-link project-action" href="https://github.com/lohithslohiths110405-ui/workforce-analytics-dashboard" target="_blank" rel="noopener noreferrer">VIEW SOURCE CODE <span>↗</span></a>
+              </div>
+            </div>
+            <div class="project-preview powerbi-preview workforce-preview" aria-label="Illustrative Workforce Analytics Power BI dashboard preview">
+              <div class="preview-topbar"><span class="preview-brand">WORKFORCE<span>PULSE</span></span><span class="preview-status">● ILLUSTRATIVE PREVIEW</span></div>
+              <div class="powerbi-title"><span>Workforce analytics</span><strong>Employee insights</strong></div>
+              <div class="powerbi-kpis"><div><small>TOTAL EMPLOYEES</small><strong>WORKFORCE</strong></div><div><small>ATTRITION RATE</small><strong class="metric-warn">16.12%</strong></div><div><small>EMPLOYEES LEFT</small><strong>237</strong></div></div>
+              <div class="workforce-visual"><div class="visual-caption-row"><span>ATTRITION BY DEPARTMENT</span><span>EMPLOYEE INSIGHTS</span></div><div class="workforce-donut"><span>16.12%<small>ATTRITION</small></span></div><div class="workforce-legend"><span><i></i> RESEARCH &amp; DEVELOPMENT</span><span><i></i> SALES</span><span><i></i> HUMAN RESOURCES</span></div></div>
+              <div class="powerbi-footer"><span>KEY FACTOR <b>OVERTIME</b></span><span>TOP ROLE <b>LAB TECHNICIANS</b></span></div>
+            </div>
+          </article>
+
+          <article class="project-card" data-categories="business-intelligence power-bi">
+            <div class="project-details">
+              <div class="project-topline"><span class="project-number">07</span><span class="project-category">POWER BI / BUSINESS INTELLIGENCE</span></div>
+              <h3>MARKETING CAMPAIGN ANALYTICS DASHBOARD</h3>
+              <p>Interactive marketing analytics dashboard tracking campaign reach, clicks, conversion rates, engagement, and return on investment across channels, campaign types, companies, and locations.</p>
+              <div class="technology-list" aria-label="Verified technologies used"><span>POWER BI</span><span>POWER QUERY</span><span>DAX</span><span>DATA CLEANING</span></div>
+              <div class="project-links">
+                <a class="project-link project-action" href="https://github.com/lohithslohiths110405-ui/Marketing-campaign-analytics-dashboard" target="_blank" rel="noopener noreferrer">VIEW SOURCE CODE <span>↗</span></a>
+              </div>
+            </div>
+            <div class="project-preview powerbi-preview marketing-preview" aria-label="Illustrative Marketing Campaign Power BI dashboard preview">
+              <div class="preview-topbar"><span class="preview-brand">CAMPAIGN<span>VIEW</span></span><span class="preview-status">● ILLUSTRATIVE PREVIEW</span></div>
+              <div class="powerbi-title"><span>Campaign performance</span><strong>Marketing overview</strong></div>
+              <div class="powerbi-kpis"><div><small>CAMPAIGNS</small><strong>200K</strong></div><div><small>IMPRESSIONS</small><strong>1B</strong></div><div><small>TOTAL CLICKS</small><strong>110M</strong></div></div>
+              <div class="marketing-visual"><div class="visual-caption-row"><span>ROI BY MARKETING CHANNEL</span><span>CAMPAIGN REACH VS CLICKS</span></div><div class="marketing-bars"><i style="height: 56%"></i><i style="height: 78%"></i><i style="height: 66%"></i><i style="height: 91%"></i><i style="height: 72%"></i></div><div class="visual-axis"><span>EMAIL</span><span>SOCIAL</span><span>SEARCH</span><span>DISPLAY</span><span>VIDEO</span></div></div>
+              <div class="powerbi-footer"><span>AVG. CONVERSION <b>8.01%</b></span><span>AVG. ROI <b>5.00</b></span><span>ENGAGEMENT <b>5.49</b></span></div>
+            </div>
+          </article>
+        </div>
+        <p class="filter-empty" hidden>No projects match this category yet.</p>
+      </section>
+
+      <section class="capabilities-section container" id="capabilities" aria-labelledby="capabilities-title">
+        <div class="capabilities-heading">
+          <div class="section-heading-copy">
+            <p class="section-badge"><span aria-hidden="true">✦</span> WHAT I DO // CORE EXPERTISE</p>
+            <h2 id="capabilities-title"><span>CORE</span> <strong>CAPABILITIES.</strong></h2>
+            <p class="section-description">
+              Combining analytical thinking, programming skills and intelligent technologies to solve real-world problems.
+            </p>
+          </div>
+          <span class="capabilities-mark" aria-hidden="true">08<br /><small>WAYS I CREATE VALUE</small></span>
+        </div>
+
+        <div class="capabilities-grid">
+          <article class="capability-card" data-reveal>
+            <div class="capability-topline"><span class="capability-number">01</span><span class="capability-icon" aria-hidden="true">⌁</span></div>
+            <h3>DATA ANALYSIS</h3>
+            <p>Exploratory data analysis, data cleaning, preprocessing, feature engineering, statistical analysis and identifying meaningful patterns.</p>
+            <span class="capability-line" aria-hidden="true"></span>
+          </article>
+          <article class="capability-card" data-reveal>
+            <div class="capability-topline"><span class="capability-number">02</span><span class="capability-icon" aria-hidden="true">◎</span></div>
+            <h3>MACHINE LEARNING</h3>
+            <p>Predictive modelling, classification, regression, anomaly detection, model training and model evaluation.</p>
+            <span class="capability-line" aria-hidden="true"></span>
+          </article>
+          <article class="capability-card" data-reveal>
+            <div class="capability-topline"><span class="capability-number">03</span><span class="capability-icon" aria-hidden="true">◈</span></div>
+            <h3>DATA SCIENCE</h3>
+            <p>End-to-end data science workflows, data processing, analytical problem-solving and practical machine learning applications.</p>
+            <span class="capability-line" aria-hidden="true"></span>
+          </article>
+          <article class="capability-card" data-reveal>
+            <div class="capability-topline"><span class="capability-number">04</span><span class="capability-icon" aria-hidden="true">▥</span></div>
+            <h3>DATA VISUALIZATION</h3>
+            <p>Building interactive dashboards, reports and visual insights using Power BI, Matplotlib and Seaborn.</p>
+            <span class="capability-line" aria-hidden="true"></span>
+          </article>
+          <article class="capability-card" data-reveal>
+            <div class="capability-topline"><span class="capability-number">05</span><span class="capability-icon" aria-hidden="true">⌘</span></div>
+            <h3>PYTHON DEVELOPMENT</h3>
+            <p>Python programming, data processing, automation, scripting and analytical application development.</p>
+            <span class="capability-line" aria-hidden="true"></span>
+          </article>
+          <article class="capability-card" data-reveal>
+            <div class="capability-topline"><span class="capability-number">06</span><span class="capability-icon" aria-hidden="true">▤</span></div>
+            <h3>SQL &amp; DATABASE MANAGEMENT</h3>
+            <p>SQL queries, joins, aggregations, filtering, relational databases and data management.</p>
+            <span class="capability-line" aria-hidden="true"></span>
+          </article>
+          <article class="capability-card" data-reveal>
+            <div class="capability-topline"><span class="capability-number">07</span><span class="capability-icon" aria-hidden="true">✧</span></div>
+            <h3>ARTIFICIAL INTELLIGENCE &amp; NLP</h3>
+            <p>Exploring AI applications, natural language processing, text processing and intelligent solutions.</p>
+            <span class="capability-line" aria-hidden="true"></span>
+          </article>
+          <article class="capability-card" data-reveal>
+            <div class="capability-topline"><span class="capability-number">08</span><span class="capability-icon" aria-hidden="true">◫</span></div>
+            <h3>BUSINESS INTELLIGENCE</h3>
+            <p>Business reporting, KPI monitoring, dashboard development, campaign analysis and data-driven decision-making.</p>
+            <span class="capability-line" aria-hidden="true"></span>
+          </article>
+        </div>
+      </section>
+
+      <section class="skills-section container" id="technical-skills" aria-labelledby="skills-title">
+        <div class="skills-heading">
+          <div class="section-heading-copy">
+            <p class="section-badge"><span aria-hidden="true">✦</span> TECHNICAL TOOLKIT // VERIFIED SKILLS</p>
+            <h2 id="skills-title"><span>TECHNICAL</span> <strong>SKILLS.</strong></h2>
+            <p class="section-description">
+              A focused toolkit for building analytical workflows, intelligent applications and data-driven solutions.
+            </p>
+          </div>
+          <span class="skills-mark" aria-hidden="true">05<br /><small>SKILL GROUPS</small></span>
+        </div>
+
+        <div class="skills-grid">
+          <article class="skill-card" data-reveal>
+            <div class="skill-card-topline"><span class="skill-number">01</span><span class="skill-icon" aria-hidden="true">⌘</span></div>
+            <h3>PROGRAMMING LANGUAGES</h3>
+            <div class="skill-tags" aria-label="Programming languages">
+              <span>Python</span><span>Java</span><span>SQL</span>
+            </div>
+          </article>
+          <article class="skill-card" data-reveal>
+            <div class="skill-card-topline"><span class="skill-number">02</span><span class="skill-icon" aria-hidden="true">◈</span></div>
+            <h3>DATA SCIENCE &amp; MACHINE LEARNING</h3>
+            <div class="skill-tags" aria-label="Data science and machine learning skills">
+              <span>Pandas</span><span>NumPy</span><span>Scikit-learn</span><span>Matplotlib</span><span>TensorFlow</span><span>Keras</span>
+            </div>
+          </article>
+          <article class="skill-card" data-reveal>
+            <div class="skill-card-topline"><span class="skill-number">03</span><span class="skill-icon" aria-hidden="true">▤</span></div>
+            <h3>DATABASES</h3>
+            <div class="skill-tags" aria-label="Database technologies">
+              <span>MySQL</span><span>MongoDB</span>
+            </div>
+          </article>
+          <article class="skill-card" data-reveal>
+            <div class="skill-card-topline"><span class="skill-number">04</span><span class="skill-icon" aria-hidden="true">▥</span></div>
+            <h3>TOOLS &amp; CORE COMPUTER SCIENCE</h3>
+            <div class="skill-tags" aria-label="Tools and computer science skills">
+              <span>GitHub</span><span>VS Code</span><span>Data Structures and Algorithms</span><span>Object-Oriented Programming</span><span>Operating Systems</span><span>DBMS</span><span>Computer Networks</span>
+            </div>
+          </article>
+          <article class="skill-card" data-reveal>
+            <div class="skill-card-topline"><span class="skill-number">05</span><span class="skill-icon" aria-hidden="true">◎</span></div>
+            <h3>DATA ANALYTICS &amp; MACHINE LEARNING CONCEPTS</h3>
+            <div class="skill-tags" aria-label="Data analytics and machine learning concepts">
+              <span>Data Analysis</span><span>Exploratory Data Analysis (EDA)</span><span>Data Cleaning</span><span>Data Preprocessing</span><span>Feature Engineering</span><span>Regression</span><span>Classification</span><span>Clustering</span><span>Anomaly Detection</span><span>Model Evaluation</span>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section class="about-section container" id="about" aria-labelledby="about-title">
+        <div class="about-heading">
+          <div class="section-heading-copy">
+            <p class="section-badge"><span aria-hidden="true">✦</span> ABOUT // BACKGROUND</p>
+            <h2 id="about-title"><span>BUILDING WITH</span> <strong>DATA &amp; AI.</strong></h2>
+          </div>
+          <span class="about-mark" aria-hidden="true">01<br /><small>THE PERSON BEHIND THE WORK</small></span>
+        </div>
+
+        <div class="about-layout">
+          <div class="about-content">
+            <p class="about-lead">I'm Lohith S, an MCA Data Science student at Alliance University, Bengaluru.</p>
+            <p>My interests span Data Analytics, Machine Learning, Artificial Intelligence, Natural Language Processing and Business Intelligence.</p>
+            <p>I enjoy transforming raw datasets into meaningful insights, developing predictive models, creating interactive dashboards and building practical data-driven applications.</p>
+
+            <div class="profile-card" data-reveal>
+              <div class="profile-card-heading">
+                <span class="profile-label">PROFILE // DETAILS</span>
+                <span class="profile-status"><i aria-hidden="true"></i> CURRENTLY LEARNING</span>
+              </div>
+              <dl class="profile-details">
+                <div><dt>NAME</dt><dd>Lohith S</dd></div>
+                <div><dt>EDUCATION</dt><dd>MCA — Data Science</dd></div>
+                <div><dt>UNIVERSITY</dt><dd>Alliance University</dd></div>
+                <div><dt>LOCATION</dt><dd>Bengaluru, Karnataka</dd></div>
+                <div><dt>EXPECTED GRADUATION</dt><dd>2027</dd></div>
+              </dl>
+            </div>
+          </div>
+
+          <div class="about-visual" data-reveal>
+            <div class="visual-panel-header">
+              <span><i aria-hidden="true"></i> DATA MINDSET / 3D EXPLORATION</span>
+              <span>INTERACTIVE</span>
+            </div>
+            <div class="canvas-wrap">
+              <canvas id="data-visualization" aria-label="Interactive wireframe data visualization. Move the pointer across the panel to rotate it."></canvas>
+              <div class="visual-center-label" aria-hidden="true"><span>DATA</span><strong>∞</strong><span>INSIGHT</span></div>
+            </div>
+            <div class="visual-panel-footer"><span>MOVE TO ROTATE</span><span class="visual-footer-line" aria-hidden="true"></span><span>01 / 01</span></div>
+          </div>
+        </div>
+      </section>
+
+      <section class="education-section container" id="education" aria-labelledby="education-title">
+        <div class="education-heading">
+          <div class="section-heading-copy">
+            <p class="section-badge"><span aria-hidden="true">✦</span> EDUCATION // TIMELINE</p>
+            <h2 id="education-title"><span>LEARNING</span> <strong>JOURNEY.</strong></h2>
+            <p class="section-description">A continuous academic foundation in applications, data science and computer applications.</p>
+          </div>
+          <span class="education-mark" aria-hidden="true">04<br /><small>ACADEMIC MILESTONES</small></span>
+        </div>
+
+        <div class="education-timeline">
+          <article class="education-card" data-reveal>
+            <div class="education-marker"><span>01</span></div>
+            <div class="education-card-content">
+              <div class="education-card-topline"><span class="education-period">2025 — 2027</span><span class="education-status current">CURRENTLY PURSUING</span></div>
+              <h3>MASTER OF COMPUTER APPLICATIONS</h3>
+              <p class="education-specialization">Data Science</p>
+              <dl class="education-details">
+                <div><dt>INSTITUTION</dt><dd>Alliance University</dd></div>
+                <div><dt>LOCATION</dt><dd>Bengaluru, Karnataka</dd></div>
+                <div><dt>CGPA</dt><dd class="education-highlight">8.55</dd></div>
+              </dl>
+            </div>
+          </article>
+
+          <article class="education-card" data-reveal>
+            <div class="education-marker"><span>02</span></div>
+            <div class="education-card-content">
+              <div class="education-card-topline"><span class="education-period">2022 — 2025</span><span class="education-status">COMPLETED</span></div>
+              <h3>BACHELOR OF COMPUTER APPLICATIONS</h3>
+              <p class="education-specialization">Vishwa Chethana Degree College</p>
+              <dl class="education-details">
+                <div><dt>UNIVERSITY</dt><dd>Bangalore University</dd></div>
+                <div><dt>LOCATION</dt><dd>Bengaluru</dd></div>
+                <div><dt>PERCENTAGE</dt><dd class="education-highlight">83.51%</dd></div>
+              </dl>
+            </div>
+          </article>
+
+          <article class="education-card" data-reveal>
+            <div class="education-marker"><span>03</span></div>
+            <div class="education-card-content">
+              <div class="education-card-topline"><span class="education-period">2022</span><span class="education-status distinction">DISTINCTION</span></div>
+              <h3>PRE-UNIVERSITY COURSE (PUC)</h3>
+              <p class="education-specialization">Vishwachethana PU College</p>
+              <dl class="education-details">
+                <div><dt>LOCATION</dt><dd>Hosur Road, Anekal Town, Bengaluru South</dd></div>
+                <div><dt>BOARD</dt><dd>Department of Pre-University Education, Karnataka</dd></div>
+                <div><dt>TOTAL MARKS</dt><dd class="education-highlight">536 / 600</dd></div>
+                <div><dt>PERCENTAGE</dt><dd class="education-highlight">89.33%</dd></div>
+              </dl>
+            </div>
+          </article>
+
+          <article class="education-card" data-reveal>
+            <div class="education-marker"><span>04</span></div>
+            <div class="education-card-content">
+              <div class="education-card-topline"><span class="education-period">2020</span><span class="education-status">COMPLETED</span></div>
+              <h3>SSLC — SECONDARY SCHOOL LEAVING CERTIFICATE</h3>
+              <p class="education-specialization">Indian High School</p>
+              <dl class="education-details">
+                <div><dt>LOCATION</dt><dd>Beguru Main Road, Bengaluru</dd></div>
+                <div><dt>BOARD</dt><dd>Karnataka Secondary Education Examination Board (KSEEB)</dd></div>
+                <div><dt>TOTAL MARKS</dt><dd class="education-highlight">402 / 625</dd></div>
+                <div><dt>PERCENTAGE</dt><dd class="education-highlight">64.32%</dd></div>
+              </dl>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section class="internship-section container" id="experience" aria-labelledby="internship-title">
+        <div class="internship-heading">
+          <div class="section-heading-copy">
+            <p class="section-badge"><span aria-hidden="true">✦</span> CAREER JOURNEY // INTERNSHIP</p>
+            <h2 id="internship-title"><span>INTERNSHIP</span> <strong>EXPERIENCE.</strong></h2>
+            <p class="section-description">Building practical technical skills through hands-on internship experience in Data Science and Machine Learning.</p>
+          </div>
+          <span class="internship-mark" aria-hidden="true">01<br /><small>INTERNSHIP</small></span>
+        </div>
+
+        <article class="internship-card" data-reveal>
+          <div class="internship-marker"><span>01</span></div>
+          <div class="internship-card-content">
+            <div class="internship-card-topline">
+              <span class="internship-duration">3 MONTHS</span>
+              <span class="internship-label">INTERNSHIP</span>
+            </div>
+            <h3>MACHINE LEARNING / DATA SCIENCE INTERN</h3>
+            <p class="internship-organization">Techxonic Innovation</p>
+            <div class="internship-responsibilities">
+              <h4>RESPONSIBILITIES</h4>
+              <ul>
+                <li>Performed exploratory data analysis using Python.</li>
+                <li>Conducted data cleaning, preprocessing and feature engineering.</li>
+                <li>Used Pandas, NumPy, Matplotlib and Seaborn for data analysis and visualization.</li>
+                <li>Applied machine learning techniques and evaluated predictive models.</li>
+              </ul>
+            </div>
+          </div>
+        </article>
+      </section>
+
+      <section class="certifications-section container" id="certifications" aria-labelledby="certifications-title">
+        <div class="certifications-heading">
+          <div class="section-heading-copy">
+            <p class="section-badge"><span aria-hidden="true">✦</span> CREDENTIALS // CONTINUOUS LEARNING</p>
+            <h2 id="certifications-title"><span>PROFESSIONAL</span> <strong>CERTIFICATIONS.</strong></h2>
+            <p class="section-description">Verified learning across data analysis, computer science, machine learning and intelligent technologies.</p>
+          </div>
+          <span class="certifications-mark" aria-hidden="true">10<br /><small>LEARNING MILESTONES</small></span>
+        </div>
+
+        <div id="certification-grid" class="certification-grid" aria-live="polite"></div>
+
+        <div class="english-credential">
+          <div class="english-credential-heading">
+            <div>
+              <p class="section-badge"><span aria-hidden="true">✦</span> ENGLISH PROFICIENCY</p>
+              <h3>EF SET ENGLISH CERTIFICATE</h3>
+            </div>
+            <span class="certificate-icon" aria-hidden="true">Aa</span>
+          </div>
+          <div class="english-credential-details">
+            <span><small>SCORE</small><strong>59/100</strong></span>
+            <span><small>LEVEL</small><strong>B2 UPPER INTERMEDIATE</strong></span>
+            <span><small>AWARDED</small><strong>10 JULY 2026</strong></span>
+            <a class="certificate-button certificate-button-active" href="https://cert.efset.org/f4mU8K" target="_blank" rel="noopener noreferrer">VIEW CERTIFICATE <span>↗</span></a>
+          </div>
+        </div>
+      </section>
+      <section class="contact-section container" id="contact" aria-labelledby="contact-title">
+        <div class="contact-heading">
+          <div class="section-heading-copy">
+            <p class="section-badge"><span aria-hidden="true">✦</span> CONNECT // GET IN TOUCH</p>
+            <h2 id="contact-title"><span>LET'S BUILD</span><strong>SOMETHING<br />USEFUL.</strong></h2>
+          </div>
+        </div>
+
+        <div class="contact-layout">
+          <div class="contact-copy">
+            <p class="section-description">Interested in Data Science, Data Analytics, Machine Learning, Business Intelligence or AI projects? I'm open to internship opportunities, entry-level positions and collaborative projects.</p>
+            <div class="contact-socials" aria-label="Social links">
+              <a class="contact-social" href="mailto:lohithslohiths110405@gmail.com">EMAIL ME <span aria-hidden="true">↗</span></a>
+              <a class="contact-social" href="https://www.linkedin.com/in/lohith1104/" target="_blank" rel="noopener noreferrer">LINKEDIN <span aria-hidden="true">↗</span></a>
+              <a class="contact-social" href="https://github.com/lohithslohiths110405-ui" target="_blank" rel="noopener noreferrer">GITHUB <span aria-hidden="true">↗</span></a>
+            </div>
+            <p class="contact-email-display">lohithslohiths110405@gmail.com</p>
+          </div>
+
+          <form class="contact-form" name="portfolio-contact" method="POST" action="/" data-netlify="true" netlify-honeypot="bot-field">
+            <input type="hidden" name="form-name" value="portfolio-contact" />
+            <p class="contact-form-heading">QUICK DIRECT DISPATCH</p>
+            <p class="contact-form-note">Send a project or internship inquiry directly.</p>
+            <p class="contact-honeypot" aria-hidden="true"><label>Do not fill this out: <input name="bot-field" tabindex="-1" autocomplete="off" /></label></p>
+            <label for="contact-name">YOUR NAME</label>
+            <input id="contact-name" name="name" type="text" autocomplete="name" required />
+            <label for="contact-email">YOUR EMAIL</label>
+            <input id="contact-email" name="email" type="email" autocomplete="email" required />
+            <label for="contact-subject">SUBJECT</label>
+            <input id="contact-subject" name="subject" type="text" required />
+            <label for="contact-message">PROJECT OR INQUIRY</label>
+            <textarea id="contact-message" name="message" rows="5" required></textarea>
+            <button class="contact-submit" type="submit"><span>TRANSMIT INQUIRY</span><span aria-hidden="true">↗</span></button>
+            <p class="contact-form-status" role="status" aria-live="polite" hidden></p>
+          </form>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="site-footer-inner container">
+        <div>
+          <a class="footer-brand" href="#home">LOHITH S</a>
+          <p>DATA <span aria-hidden="true">•</span> AI <span aria-hidden="true">•</span> ANALYTICS</p>
+        </div>
+        <div class="footer-links" aria-label="Footer links">
+          <a href="mailto:lohithslohiths110405@gmail.com">EMAIL</a>
+          <a href="https://www.linkedin.com/in/lohith1104/" target="_blank" rel="noopener noreferrer">LINKEDIN</a>
+          <a href="https://github.com/lohithslohiths110405-ui" target="_blank" rel="noopener noreferrer">GITHUB</a>
+        </div>
+        <p class="footer-copyright">Copyright © 2026 Lohith S. All rights reserved.</p>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
